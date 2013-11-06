@@ -1,0 +1,25 @@
+We are actively interested in seeing outside contribution to TimePulse. It
+suits our needs, but that's not the same thing as suiting everyone's. With that
+in mind, we want to be up front about the sort of things we'd like to see in
+contributions.
+
+* Use the normal [github pull-request
+  flow](https://help.github.com/articles/using-pull-requests). We'd prefer that
+  you make a fork and submit PR's based on local branches.
+* Do your best to adhere to the existing coding conventions and idioms. For the
+  most part, we're trying to move to a model where both models and controllers
+  are lightweight, and application logic lives in support classes. The current
+  code certainly isn't exemplary at this, though, so don't sweat it too much.
+* Don't use hard tabs, and don't leave trailing whitespace on any line. Before
+  committing, run git diff --check to  make sure of this.
+* Add to the Gemfile only sparingly - be prepared to defend your additions,
+  especially if a related gem is already in the project.
+* Do feel free to add yourself to the Contributors list in the the README.
+  Alphabetical order applies.
+* Add specs for the features you're adding. PR's that break the existing specs,
+  or reduce coverage won't be merged.
+* Do note that in order for us to merge any non-trivial changes (as a rule of
+  thumb, additions larger than about 15 lines of code), we need an explicit
+  assignment of copyright license from you. Copy the template in
+  license-assignments/ in your first pull request and update it with your
+  information.

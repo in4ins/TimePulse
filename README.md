@@ -45,27 +45,25 @@ For now, you'll probably need solid knowledge of Rails to customize and deploy t
 
 ## Contributing
 
-Fork and Pull Request! Y'all know the drill by now.  Please make sure the tests pass, and add tests for your code.
+See the [contributing file](https://github.com/TimePulse/TimePulse/blob/master/contributing)
 
 ## History
 
 TimePulse was first built as an internal time-tracking application for LRD in early 2011.  Since then it's grown and expanded, and in October 2013 we decided to open-source the project.
 
 ## Contributors
+(alphabetically)
 
+* [Nate Berggren](http://github.com/baksmak)
+* [Evan Dorn](http://github.com/idahoev)
 * [Austin Fonacier](http://github.com/austinrfnd)
 * [Charles Hudson](http://github.com/phobetron)
-* [Evan Dorn](http://github.com/idahoev)
 * [Hannah Howard](http://github.com/hannahhoward)
 * [Judson Lester](http://github.com/nyarly)
 * [Michael McCormick](http://github.com/dipolesource)
-* [Nate Berggren](http://github.com/baksmak)
 * [Scott Van Essen](http://github.com/purplebaron)
 * [Tom Jakubowski](http://github.com/tomjakubowski)
 
 ## LICENSE
 
 TimePulse is released under a restricted license. See the accompanying LICENSE file for details.
-
-
-
