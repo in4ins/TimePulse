@@ -41,7 +41,7 @@ namespace :deploy do
 
   desc "Install the database"
   task :db_install do
-     run("cd #{current_path}; /usr/bin/rake db:install RAILS_ENV=#{rails_env}")
+     run("cd #{current_path}; rake db:install RAILS_ENV=#{rails_env}")
   end
 
   task :cache_clear do
