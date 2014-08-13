@@ -11,13 +11,12 @@ require 'bundler'
 require 'bundler/capistrano'
 set :bundle_without,  [:development, :test]
 
-#set :repository,  "git@github.com:TimePulse/TimePulse.git" #use the public
-#repo, or fork and use your own
+set :repository,  "git@github.com:in4ins/TimePulse.git"
 set :deploy_via, :remote_cache
 set :scm, 'git'
 set :scm_verbose, true
 
-set :stages, %w(staging production)
+set :stages, %w(production)
 set :default_stage, 'staging'
 set :use_sudo, false
 
